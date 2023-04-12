@@ -1,0 +1,26 @@
+/* Footer */
+#footer {
+  text-shadow: 0.55rem 0.55rem #FFFFFF;
+  .form__footer {
+    margin: 1rem;
+  }
+  .cgv__footer {
+    margin: 0.5rem;
+    .button {
+      margin: 1rem;
+      padding: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+  .cgu__footer {
+    margin: 0.5rem;
+  }
+//j'ai regroupé ici mais on est pas obligé,on pourrait utilisé aussi >div  si on voulait  le mettre pour chaque enfant div
+  .form__footer, .cgu__footer,.cgv__footer{
+    text-shadow: 0.55rem 0.55rem #15FFF5;
+  }
+}
+
+
+
+
